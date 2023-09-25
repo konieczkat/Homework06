@@ -14,7 +14,7 @@ errors if the incorrect number of arguments or arguments of incorrect type are p
 The mean_trim() function calculates the trimmed mean of a given vector of numerics.
 In this function the smallest and largest value in the ordered vector are removed
 and the mean is calculated for the remainder.
-License: What license is it under?
+License: GNU-General Public License
 Encoding: UTF-8
 LazyData: true
 Suggests: 
