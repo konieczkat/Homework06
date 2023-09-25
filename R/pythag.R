@@ -1,3 +1,13 @@
+#' Calculate the length of the third side of a right triangle
+#'
+#' @param side1 length of one side of right triangle
+#' @param side2 length of second known side
+#' @param hypotenuse Default = TRUE if calculated side is hypotenuse
+#' @examples
+#' pythag(side1 = 3, side2 = 4, hypotenuse = TRUE)
+#' pythag(side1 = 3, side2 = 5, hypotenuse = FALSE)
+
+
 pythag <- function(side1, side2, hypotenuse = TRUE){
   if(length(side1) != 1 || length(side2) != 1){
     stop("Please provide precisely two arguments.")
