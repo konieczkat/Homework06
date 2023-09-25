@@ -1,5 +1,5 @@
 #' Calculate the length of the third side of a right triangle
-#'
+#' @export
 #' @param side1 length of one side of right triangle
 #' @param side2 length of second known side
 #' @param hypotenuse Default = TRUE if calculated side is hypotenuse
