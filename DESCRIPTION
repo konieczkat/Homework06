@@ -6,7 +6,8 @@ Author: Tobias Konieczka
 Maintainer: The package maintainer <konieczkat@outlook.com>
 Description: This package contains two discrete functions. The first function is 
 the pythag() function which calculates the length of the third side of a right
-triangle and uses lengths of the two sides as the parameter.
+triangle and uses lengths of the two sides as the parameter. The function will throw
+errors if the incorrect number of arguments or arguments of incorrect type are passed.
 
 
 
