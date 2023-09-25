@@ -4,16 +4,7 @@ Title: What the Package Does (Title Case)
 Version: 0.1.0
 Author: Tobias Konieczka
 Maintainer: The package maintainer <konieczkat@outlook.com>
-Description: This package contains two discrete functions. The first function is 
-the pythag() function which calculates the length of the third side of a right
-triangle and uses lengths of the two sides as the parameter. The function will throw
-errors if the incorrect number of arguments or arguments of incorrect type are passed.
-
-
-
-The mean_trim() function calculates the trimmed mean of a given vector of numerics.
-In this function the smallest and largest value in the ordered vector are removed
-and the mean is calculated for the remainder.
+Description: This package contains two discrete functions. The first function is the pythag function which calculates the length of the third side of a right triangle and uses lengths of the two sides as the parameter. The function will throw errors if the incorrect number of arguments or arguments of incorrect type are passed. The mean_trim() function calculates the trimmed mean of a given vector of numerics. In this function the smallest and largest value in the ordered vector are removed and the mean is calculated for the remainder.
 License: GNU-General Public License
 Encoding: UTF-8
 LazyData: true
